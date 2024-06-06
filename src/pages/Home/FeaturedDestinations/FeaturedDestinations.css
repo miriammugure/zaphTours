@@ -1,0 +1,95 @@
+.ContainerHomeDestination {
+  min-height: 100vh;
+  border: 2px solid red;
+  background: radial-gradient(
+    circle,
+    rgba(158, 98, 0, 1) 4%,
+    rgba(3, 34, 33, 1) 100%
+  );
+}
+.ContainerFeaturedActual {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.CardDesty {
+  /* min-height: 25rem; */
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  background-color: var(--dark-green);
+  color: var(--white-color);
+  /* justify-content: center; */
+  align-items: center;
+  border-top-left-radius: 15px;
+  /* min-width: 100vw; */
+  border-top-right-radius: 15px;
+  border: 2px solid var(--lightgold-color);
+  transition: all 0.5s ease-in;
+  box-shadow: 7px -1px 5px -1px rgba(13, 11, 12, 0.75);
+  -webkit-box-shadow: 7px -1px 5px -1px rgba(13, 11, 12, 0.75);
+  -moz-box-shadow: 7px -1px 5px -1px rgba(13, 11, 12, 0.75);
+}
+@media screen and (max-width: 912px) {
+  .CardDesty {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .Destydescription {
+    min-width: 100%;
+  }
+  .imageDesty {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 412px) {
+  .CardDesty {
+    border: 2px solid white;
+    box-shadow: none;
+  }
+}
+.imageDesty {
+  height: 25rem;
+  border-radius: 15px;
+  /* border: 2px solid green; */
+  overflow: hidden;
+}
+.imageDesty img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: all 2.5s;
+}
+.imageDesty img:hover {
+  transform: scale(1.15);
+}
+.Destydescription {
+  /* border: 2px solid black; */
+  justify-content: center;
+  width: 60%;
+  align-items: center;
+  padding: 1rem;
+}
+.Destyname {
+  padding: 0.5rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  text-align: center;
+  font-family: var(--primary-font);
+}
+.briefDesty {
+  font-size: 1.1rem;
+  line-height: 2;
+  color: var(--white-color);
+  /* font-weight: bold; */
+  text-align: center;
+  text-transform: capitalize;
+  font-family: var(--primary-font);
+}
