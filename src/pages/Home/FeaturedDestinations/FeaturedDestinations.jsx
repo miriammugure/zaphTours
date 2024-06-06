@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function FeaturedDestinations() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div></div>;
 }
 
-export default FeaturedDestinations
+export default FeaturedDestinations;

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Trips() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div></div>;
 }
 
-export default Trips
+export default Trips;

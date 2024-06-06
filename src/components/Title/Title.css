@@ -1,12 +1,15 @@
-.title{
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.title {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+ 
 }
-.titlename h2{
-    text-transform: capitalize;
-    font-family: var(--secondary-font);
-    font-size: 3rem;
-    text-align: center;
+.titlename h2 {
+  text-transform: capitalize;
+  font-family: var(--secondary-font);
+  font-size: 3rem;
+  text-align: center;
+  color: var(--lightgold-color);
 }
