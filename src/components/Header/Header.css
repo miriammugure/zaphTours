@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: center;
   padding-inline: 1rem;
+  border: 2px solid green;
 }
 .logo {
   display: flex;

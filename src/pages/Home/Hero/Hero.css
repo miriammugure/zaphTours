@@ -1,0 +1,40 @@
+.ContainerHero{
+    min-height: 100vh;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(../../../assets/mountainsbg.jpg);
+    /* justify-content: center; */
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ContainerHeroActual{
+   
+    display: flex;
+    
+    min-height: 100vh;
+    
+    min-width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    gap: 8rem;
+
+
+}
+
+.descriptionHero{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.descriptionHero p{
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 2;
+    color: var(--white-color);
+}

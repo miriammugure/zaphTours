@@ -1,5 +1,5 @@
 .title {
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,5 +11,5 @@
   font-family: var(--secondary-font);
   font-size: 3rem;
   text-align: center;
-  color: var(--lightgold-color);
+  color: var(--white-color);
 }

@@ -6,7 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html{
+    overflow-x: hidden;
+}
 :root {
   --primary2-color: #1c4529;
   --primary-color: #d49b41;
