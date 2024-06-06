@@ -1,0 +1,12 @@
+.title{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titlename h2{
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+    font-size: 3rem;
+    text-align: center;
+}

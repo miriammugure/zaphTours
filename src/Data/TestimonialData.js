@@ -4,6 +4,7 @@ import content from "../assets/contentcreator.jpeg"
 import family from "../assets/family.jpeg"
 import mountainClimbing from "../assets/mountainclimbing.jpeg"
 import tsavoGrp from "../assets/tsavogrp.jpeg"
+import students from "../assets/students.jpeg"
 
 const TestimonialData =[
     {
@@ -41,9 +42,9 @@ const TestimonialData =[
 
     },
     {
-        testimonyImg:tsavoGrp,
-        testimonyName:"the safaris group",
-        testimonyBrief:"Our group had an amazing time at Tsavo National Park! The wildlife sightings and stunning landscapes were beyond our expectations. Every safari drive was an adventure filled with excitement. We highly recommend it to all nature lovers!"
+        testimonyImg:students,
+        testimonyName:"mrs. smaith and the class",
+        testimonyBrief:"Our school trip to the national park was fantastic! The kids loved seeing all the animals up close and learning about wildlife and conservation. The guided tours were educational and fun, making it an unforgettable adventure for everyone. We can't wait to go back!"
 
     }
 ]
