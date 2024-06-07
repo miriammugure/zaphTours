@@ -39,9 +39,10 @@
 .Card:hover {
   transform: translateY(-15px);
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 436px) {
   .Card {
-    width: 20rem;
+    width: 98vw;
+    box-shadow: none;
   }
 }
 .image {

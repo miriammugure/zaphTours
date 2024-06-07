@@ -3,7 +3,6 @@ import "./Hero.css";
 import { Link } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-
 function Hero() {
   return (
     <div>
@@ -11,9 +10,9 @@ function Hero() {
         <div className="ContainerHeroActual">
           <div className="descriptionHero">
             <p>Best safaris and adventures!</p>
-            <p>more 
-            </p>
-            <div className="iconarrow"><IoIosArrowRoundForward />
+            <p>more</p>
+            <div className="iconarrow">
+              <IoIosArrowRoundForward />
             </div>
           </div>
         </div>

@@ -5,6 +5,8 @@ import lakeNakuru from "../assets/LakeNakuru2.jpeg";
 import coast from "../assets/coast4.jpg";
 import tsavo from "../assets/tsavo.jpg";
 import nairobipark from "../assets/nairobipark.jpg";
+import wilderbeests from "../assets/serengetiwilderbeests.jpg";
+import southafrica from "../assets/tab.jpeg";
 
 const RealDestinations = [
   {
@@ -47,6 +49,22 @@ const RealDestinations = [
     destName: "tsavo national park",
     destBrief:
       "Tsavo National Park, one of Kenya's largest parks, is located in the southeast and spans over 22,000 square kilometers. It is divided into Tsavo East and Tsavo West, each offering unique landscapes and abundant wildlife.Renowned for its red-dusted elephants, the park is also home to lions, leopards, rhinos, and many bird species. Key attractions include Mzima Springs and the Yatta Plateau. Tsavo is a prime destination for wildlife enthusiasts and adventurers.",
+    destPrice: "10,000p/p",
+  },
+
+  {
+    destImage: wilderbeests,
+    destName: "serengeti national park",
+    destBrief:
+      "Serengeti National Park in Tanzania spans 14,750 square kilometers and is renowned for the Great Migration, where over a million wildebeests, zebras, and gazelles move in search of fresh grazing. The park also hosts lions, leopards, elephants, and cheetahs. Key attractions include the Seronera Valley and the Grumeti River. The Serengeti offers an unparalleled safari experience with spectacular wildlife events. ",
+    destPrice: "10,000p/p",
+  },
+
+  {
+    destImage: southafrica,
+    destName: "table mountains",
+    destBrief:
+      "Table Mountain in Cape Town, South Africa, rises 1,086 meters above sea level and is famous for its flat-topped summit. Visitors can take the scenic Table Mountain Aerial Cableway or hike trails like Platteklip Gorge. As part of the Cape Floristic Region, a UNESCO World Heritage Site, it features unique vegetation and diverse wildlife. Key attractions include breathtaking panoramic views, rich biodiversity, and stunning rock formations. Table Mountain offers an unforgettable experience for nature lovers and adventure seekers.",
     destPrice: "10,000p/p",
   },
 ];
