@@ -7,7 +7,7 @@ function NewsLetter() {
       <div className="newsLetter">
         <legend>get newsletter here:</legend>
         <form action="">
-          <input type="text" />
+          <input type="text" placeholder="johndoe@example.com" />
           <button type="button">subscribe</button>
         </form>
       </div>

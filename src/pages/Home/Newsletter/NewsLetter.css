@@ -16,6 +16,12 @@ form {
 input {
   background-color: var(--white-color);
   width: 30%;
+  height: 2rem;
+  font-size: 0.8rem;
+  font-family: var(--primary-font);
+}
+input::placeholder {
+  color: var(--white-color);
 }
 button {
   /* width: 10%; */

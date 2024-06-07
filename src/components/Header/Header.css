@@ -4,6 +4,10 @@
   align-items: center;
   padding-inline: 1rem;
   border: 2px solid green;
+  background-image: url(../../assets/wavesup.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .logo {
   display: flex;
