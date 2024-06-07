@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CardDesty({
   destinationImage,
   DestinationName,
   briefDestination,
-  priceDestination,
+  priceDestinationPerson,
+  priceDestinationGrp,
 }) {
   return (
     <div>
@@ -20,7 +22,17 @@ function CardDesty({
             <p>{briefDestination}</p>
           </div>
           <div className="Destyname">
-            <p>ksh.{priceDestination}</p>
+            <div className="destyPerson">
+              <p>ksh.{priceDestinationPerson}</p>
+            </div>
+            <div className="destyGrp">
+              <p>ksh.{priceDestinationGrp}</p>
+            </div>
+            <div className="arrow">
+              <Link to="/Contacts" className="links">
+                <p>More &rarr;</p>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

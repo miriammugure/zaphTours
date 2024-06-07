@@ -1,0 +1,21 @@
+.IconBox {
+  display: flex;
+  gap: 2rem;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.IconBox svg {
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  border: none;
+  transition: all 2s;
+  /* border: 2px solid green; */
+  fill: var(--dark-green);
+}
+.IconBox svg:hover {
+  fill: var(--white-color);
+}

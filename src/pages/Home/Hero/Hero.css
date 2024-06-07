@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url(../../../assets/mountainsbg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+    url(../../../assets/horizon.jpeg);
   /* justify-content: center; */
   align-items: center;
   background-repeat: no-repeat;
@@ -30,28 +30,51 @@
   justify-content: center;
   align-items: center;
 }
-.descriptionHero p {
+.descriptionHero h3 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
+  font-family: var(--primary-font);
   text-transform: capitalize;
   letter-spacing: 2;
+  text-transform: capitalize;
   color: var(--white-color);
+}
+.para {
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 2rem;
+  font-family: var(--secondary-font);
+  font-weight: bold;
 }
 .iconarrow {
-  cursor: pointer;
-  width: 8rem;
-  background-color: var(--gold-color);
-  border-radius: 10px;
-  color: var(--white-color);
-  transition: all 2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  font-family: var(--secondary-font);
 }
-.iconarrow:hover {
+
+.link {
+  text-decoration: none;
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   background-color: var(--white-color);
-  color: var(--gold-color);
-}
-.iconarrow svg {
-  font-size: 3rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  transition: 2s all;
   text-align: center;
-  width: 100%;
-  display: block;
+}
+
+.link:hover {
+  background-color: var(--gold-color);
+}
+.link p {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--dark-green);
+  border-radius: 10px;
+  font-family: var(--secondary-color);
 }

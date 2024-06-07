@@ -46,11 +46,29 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 448px) {
+  .CardDesty {
+    border: 2px solid white;
+    width: 98vw;
+    box-shadow: none;
+  }
+}
 @media screen and (max-width: 412px) {
   .CardDesty {
     border: 2px solid white;
     width: 98vw;
     box-shadow: none;
+  }
+  .Destyname {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .links {
+    font-size: 1rem;
+  }
+  .arrow {
+    padding: 0;
   }
 }
 .imageDesty {
@@ -82,8 +100,20 @@
   text-transform: capitalize;
   font-size: 1.5rem;
   /* font-weight: bold; */
+  border: 2px solid white;
+  display: flex;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-family: var(--primary-font);
+}
+.destyPerson,
+.destyGrp {
+  background-color: var(--gold-color);
+  padding: 0.5rem;
+  border-radius: 10px;
 }
 .briefDesty {
   font-size: 1.1rem;
@@ -93,4 +123,14 @@
   text-align: center;
   text-transform: capitalize;
   font-family: var(--primary-font);
+}
+.arrow {
+  border: 2px solid red;
+  width: 50%;
+  padding: 0;
+}
+.links {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--gold-color);
 }

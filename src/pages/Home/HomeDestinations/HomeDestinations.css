@@ -18,6 +18,7 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  width: 100vw;
 
   /* min-height: 100vh;
     justify-content: center;
@@ -46,7 +47,7 @@
 }
 @media screen and (max-width: 436px) {
   .homeCard {
-    width: 98vw;
+    width: 90vw;
     /* box-shadow: none; */
   }
   .fdname {

@@ -14,7 +14,8 @@ function Destinations() {
               destinationImage={currentdesty.destImage}
               DestinationName={currentdesty.destName}
               briefDestination={currentdesty.destBrief}
-              priceDestination={currentdesty.destPrice}
+              priceDestinationPerson={currentdesty.destPricePerson}
+              priceDestinationGrp={currentdesty.destPriceGrp}
             />
           ))}
         </div>
