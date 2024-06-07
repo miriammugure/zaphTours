@@ -6,7 +6,7 @@ import coast from "../assets/coast4.jpg";
 import tsavo from "../assets/tsavo.jpg";
 import nairobipark from "../assets/nairobipark.jpg";
 
-const HomeDestination = [
+const RealDestinations = [
   {
     destImage: mtKenya,
     destName: "mt kenya",
@@ -51,4 +51,4 @@ const HomeDestination = [
   },
 ];
 
-export default HomeDestination;
+export default RealDestinations;

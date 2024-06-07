@@ -33,6 +33,26 @@
 .descriptionHero p {
   text-align: center;
   font-size: 4rem;
+  text-transform: capitalize;
   letter-spacing: 2;
   color: var(--white-color);
+}
+.iconarrow{
+cursor: pointer;
+width: 8rem;
+  background-color: var(--gold-color);
+  border-radius: 10px;
+  color: var(--white-color);
+  transition: all 2s;
+}
+.iconarrow:hover{
+  background-color: var(--white-color);
+  color: var(--gold-color);
+}
+.iconarrow svg{
+ 
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
