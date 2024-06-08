@@ -4,11 +4,11 @@ import viteLogo from "/vite.svg";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Trips from "./pages/Trips/Trips";
 import Destinations from "./pages/Destinations/Destinations";
 import Contacts from "./pages/Contacts/Contacts";
 import Header from "./components/Header/Header";
 import "./global.css";
+import TrialCarousel from "./pages/Trips/MtKenyaCarousel";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Destination" element={<Destinations />} />
-          <Route path="/Trips" element={<Trips />} />
+          <Route path="/TrialCarousel" element={<TrialCarousel />} />
           <Route path="/Contacts" element={<Contacts />} />
         </Routes>
         <Footer />

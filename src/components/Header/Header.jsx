@@ -27,7 +27,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/Trips" className="navlinks">
+              <Link to="/TrialCarousel" className="navlinks">
                 Trips
               </Link>
             </li>
