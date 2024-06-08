@@ -13,6 +13,8 @@
   background-color: var(--dark-green);
 }
 .input-form {
+  display: flex;
+  flex-direction: column;
   background-color: var(--white-color);
   border-radius: 10px;
   color: var(--gold-color);
@@ -23,29 +25,32 @@
   -webkit-box-shadow: -7px 10px 14px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -7px 10px 14px -1px rgba(0, 0, 0, 0.75);
 }
-legend {
+.input-form legend {
   text-transform: capitalize;
   font-family: var(--primary-font);
   font-size: 2rem;
   padding-inline: 2rem;
   padding-top: 1rem;
 }
-form {
+.fillContacts {
   display: flex;
   flex-direction: column;
+  border: 2px solid white;
+  /* flex-direction: column; */
   padding: 2rem;
   justify-content: center;
 }
-label {
+.fillContacts label {
   font-family: var(--primary-font);
   font-size: 1rem;
   text-transform: capitalize;
   font-weight: 700;
   color: var(--gold-color);
 }
-input {
+.fillContacts input {
   height: 2rem;
   padding: 1rem;
+  width: 100%;
   margin: 1rem 0rem;
   border: 2px solid var(--gold-color);
   text-transform: capitalize;
@@ -58,7 +63,7 @@ input {
   color: var(--white-color);
   font-family: var(--primary-font);
 }
-input:hover {
+.fillContacts input:hover {
   border: none;
   border-bottom: 2px solid var(--gold-color);
 }
@@ -98,6 +103,12 @@ textarea {
   -webkit-box-shadow: -7px 10px 14px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -7px 10px 14px -1px rgba(0, 0, 0, 0.75);
 }
+.companyDetails h2 {
+  font-family: var(--secondary-font);
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 1rem;
+}
 .detail1 {
   display: flex;
   align-items: center;
@@ -120,7 +131,7 @@ textarea {
   .detail1 {
     width: 80vw;
   }
-  legend {
+  .fillContacts legend {
     font-size: 1rem;
   }
   .mapText p {

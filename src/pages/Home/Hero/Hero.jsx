@@ -12,7 +12,7 @@ function Hero() {
             <p className="para">explore with us to get the best </p>
 
             <div className="iconarrow">
-              <Link to="/Destination" className="link">
+              <Link to="/Destination" className="link-cta">
                 <p>More &rarr;</p>
               </Link>
             </div>

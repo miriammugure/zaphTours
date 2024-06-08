@@ -55,7 +55,7 @@
   font-family: var(--secondary-font);
 }
 
-.link {
+.link-cta {
   text-decoration: none;
   font-size: 2rem;
   align-items: center;
@@ -68,10 +68,10 @@
   text-align: center;
 }
 
-.link:hover {
+.link-cta:hover {
   background-color: var(--gold-color);
 }
-.link p {
+.link-cta p {
   cursor: pointer;
   text-decoration: none;
   color: var(--dark-green);

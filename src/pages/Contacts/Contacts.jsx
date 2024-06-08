@@ -11,7 +11,7 @@ function Contacts() {
         <div className="formContacts">
           <div className="input-form">
             <legend>fill out this form:</legend>
-            <form action="">
+            <form action="" className="fillContacts">
               <label htmlFor="name">name</label>
               <input type="text" placeholder="John Doe" />
               <label htmlFor="email">email</label>
@@ -25,6 +25,8 @@ function Contacts() {
           </div>
 
           <div className="companyDetails">
+            <h2>contact us:</h2>
+
             <div className="detail1">
               <FaPhone />
               <p>0110638872</p>

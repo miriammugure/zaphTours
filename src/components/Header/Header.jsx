@@ -17,7 +17,7 @@ function Header() {
         <div className="links">
           <ul className="navlist">
             <li>
-              <Link to="/Home" className="navlinks">
+              <Link to="/" className="navlinks">
                 Home
               </Link>
             </li>
