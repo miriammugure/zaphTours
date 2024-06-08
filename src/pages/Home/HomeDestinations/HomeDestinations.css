@@ -5,7 +5,7 @@
   align-items: center;
   padding: 2rem;
   min-height: 100vh;
-  border: 2px solid black;
+
   background: radial-gradient(
     circle,
     rgba(158, 98, 0, 1) 4%,
@@ -25,10 +25,8 @@
     gap: 2rem;
     align-items: center;
     flex-wrap: wrap; */
-  border: 2px solid black;
 }
 .homeCard {
-  border: 2px solid white;
   width: 25rem;
   min-height: 25rem;
   display: flex;
@@ -105,7 +103,7 @@
 }
 .perPerson {
   color: var(--white-color);
-  border: 2px solid white;
+
   padding: 0.5rem;
 }
 .perGrp {

@@ -2,7 +2,7 @@ import React from "react";
 import mtKenya from "../assets/mtkenya.webp";
 import mtRuwe from "../assets/ruwenzori.jpg";
 import lakeNakuru from "../assets/LakeNakuru2.jpeg";
-import coast from "../assets/coast4.jpg";
+import coast from "../assets/coast2.jpg";
 import tsavo from "../assets/tsavo.jpg";
 import nairobipark from "../assets/nairobipark.jpg";
 import wilderbeests from "../assets/serengetiwilderbeests.jpg";

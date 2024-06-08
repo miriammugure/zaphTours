@@ -1,12 +1,12 @@
 import React from "react";
 import ImageSlider from "./ImageSlider";
 import "./Trips.css";
-
+import Title from "../../components/Title/Title";
 import mtkenya1 from "../../assets/mtkenya1.jpg";
 import mtkenya2 from "../../assets/mtkenya2.jpg";
 import mtkenya3 from "../../assets/mtkenya3.jpg";
 import mtkenya4 from "../../assets/mtkenya3.jpg";
-import mtkenya5 from "../../assets/mtkenya5.jpg";
+import mtkenya5 from "../../assets/camping.jpeg";
 import mtkenya6 from "../../assets/mtkenya6.jpg";
 import mtkenya7 from "../../assets/mtkenya7.jpg";
 
@@ -90,7 +90,8 @@ const tsavoSlides = [
 const nairobiSlides = [{ image: nairobi1 }, { image: nairobi2 }];
 function TrialCarousel() {
   return (
-    <div>
+    <div className="bg">
+      <Title titleName="trips" />
       <div className="slidesContainer">
         <div className="Slidetitle">
           <h2>mt kenya</h2>

@@ -13,16 +13,13 @@ function About() {
           </div>
           <div className="AboutDescription">
             <p>
-              Zaph Tours is a premier travel company based in Kenya,
-              specializing in safaris and adventure tours. With a strong
-              reputation for exceptional travel experiences, Zaph Tours
-              showcases the natural beauty and cultural richness of Kenya and
-              beyond. We're designing and developing a website to enhance Zaph
-              Tours' online presence. The site, named "Zaph Tours" with the
-              tagline "Best Safaris and Adventures," aims to be visually
-              appealing, user-friendly, and informative. Join us on a journey
-              with Zaph Tours, where every adventure is a story waiting to be
-              told.
+              Welcome to Zaph Tours, Kenya's top travel company for safaris and
+              adventures. We showcase Kenya's natural beauty and cultural
+              richness with unforgettable journeys. Join us for thrilling
+              safaris and serene getaways, and experience the magic of Kenya.
+              Every adventure with Zaph Tours is a story waiting to be told.
+              Experience the best safaris and adventures with us, and discover
+              the magic of Kenya.
             </p>
           </div>
         </div>

@@ -1,6 +1,5 @@
 .ContainerHero {
   min-height: 100vh;
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   padding: 1rem;

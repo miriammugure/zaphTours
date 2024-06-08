@@ -1,6 +1,5 @@
 .ContainerHomeDestination {
   min-height: 100vh;
-  border: 2px solid red;
   background: radial-gradient(
     circle,
     rgba(158, 98, 0, 1) 4%,
@@ -10,24 +9,21 @@
 .ContainerFeaturedActual {
   display: flex;
   flex-direction: column;
-  border: 2px solid green;
   gap: 1rem;
   justify-content: center;
   align-items: center;
 }
 .CardDesty {
-  /* min-height: 25rem; */
   display: flex;
   padding: 1rem;
   justify-content: space-around;
   background-color: var(--dark-green);
   color: var(--white-color);
-  /* justify-content: center; */
+
   align-items: center;
   border-top-left-radius: 15px;
-  /* min-width: 100vw; */
+
   border-top-right-radius: 15px;
-  border: 2px solid var(--lightgold-color);
   transition: all 0.5s ease-in;
   box-shadow: 7px -1px 5px -1px rgba(13, 11, 12, 0.75);
   -webkit-box-shadow: 7px -1px 5px -1px rgba(13, 11, 12, 0.75);
@@ -48,14 +44,12 @@
 }
 @media screen and (max-width: 448px) {
   .CardDesty {
-    border: 2px solid white;
     width: 98vw;
     box-shadow: none;
   }
 }
 @media screen and (max-width: 412px) {
   .CardDesty {
-    border: 2px solid white;
     width: 98vw;
     box-shadow: none;
   }
@@ -99,8 +93,7 @@
   padding: 0.5rem;
   text-transform: capitalize;
   font-size: 1.5rem;
-  /* font-weight: bold; */
-  border: 2px solid white;
+
   display: flex;
   gap: 2rem;
   display: flex;
@@ -125,7 +118,6 @@
   font-family: var(--primary-font);
 }
 .arrow {
-  border: 2px solid red;
   width: 50%;
   padding: 0;
 }
