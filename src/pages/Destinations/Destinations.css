@@ -42,6 +42,12 @@
     width: 100%;
   }
 }
+@media screen and (max-width:528px) {
+  .Destyname{
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 448px) {
   .CardDesty {
     width: 98vw;
